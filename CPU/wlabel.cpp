@@ -124,11 +124,9 @@ void wlabel::setDroplet(int x, int y){
 }
 
 int clamp(double v){
-    if (v>255)
-        v = 255;
-    else{
-
-    }
+    
+    if (v>255) v = 255;
+    
     return v;
 }
 
